@@ -1,0 +1,50 @@
+.andventages{
+    padding:120px 0px ;
+}
+.container{
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.abdventages-text{
+    font-size: 40px;
+    height: 47px;
+    width: 306px;
+    margin: 0 auto 20px auto;
+    color: #383838;
+}
+.band{
+    width:100px ;
+    height:4px ;
+    background: #F5BD41;
+    margin: 0 auto;
+}
+.andventages-items-block{
+    margin: 80px;
+}
+
+.andventages-item{
+    width: 296px;
+    height: 176px;
+    display: inline-block;
+    text-align: center;
+    margin-right: 16px;
+}
+.andventages-description{
+    margin-top: 48px ;
+    margin-bottom: 0px;
+    font-size: 24px;
+    color: #383838;
+}
+.andventages-item:last-child{
+    margin-right: 0;
+}
+.andventages-item-img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
