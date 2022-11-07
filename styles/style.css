@@ -1,0 +1,98 @@
+@import url('/fonts.css');
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.andventages{
+    padding-top:120px ;
+}
+.container{
+    max-width: 1232px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.abdventages-text{
+    font-size: 40px;
+    margin: 0;
+    text-align: center;
+    color: #383838;
+    padding-bottom: 20px;
+}
+.band{
+    width:100px ;
+    height:4px ;
+    background: #F5BD41;
+    margin: 0 auto;
+
+}
+.andventages-items-block{
+    display: flex;
+    gap: 16px;
+    margin: 80px 104px;
+}
+
+.andventages-item{
+    width: 296px;
+    height: 176px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.andventages-description{
+    margin: 0;
+    font-size: 24px;
+    color: #383838;
+}
+.andventages-item-img{
+    width: 100px;
+    height: 100px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer{
+    padding: 120px 0px;
+    background: #10367C;
+}
+.footer-content{
+    display: flex;
+    margin-bottom: 64px;
+}
+.footer-nav-one{
+    margin-right: 223px;
+}
+.footer-nav-two{
+    margin-right:283px ;
+}
+.footer-title{
+    margin: 0;
+    color: #FFFFFF;
+    font-size: 20px;
+    font-weight: 500;
+}
+.footer-nav-link{
+    font-size: 20px;
+    color: #FFFFFF;
+    font-weight: 400;
+    display: flex;
+    text-decoration: none;
+
+}
+.footer-nav-list{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+}
+.footer-nav-item{
+    margin-top: 24px;
+}
+.copyright-text{
+    font-size: 14px;
+    color: #FFFFFF;
+    font-weight: 400;
+}
