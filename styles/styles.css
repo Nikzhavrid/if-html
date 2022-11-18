@@ -1,0 +1,152 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500&display=swap');
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto";
+}
+.container{
+    max-width: 1232px;
+    width: 100%;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+.header{
+    background-image: url("../img/background.img.png");
+    background-repeat: no-repeat;
+    background-size: cover ;
+    min-height: 100vh;
+}
+.head{
+    padding-top: 51px;
+    height: 46px;
+    display: flex;
+    justify-content: space-between;
+}
+.link-text{
+    color:#FFFFFF;
+    font-size: 24px;
+    text-decoration: none;
+    margin-top: 6px;
+    margin-right: 24px;
+    font-weight: 400;
+    position: relative;
+}
+.link-text:after{
+    content:"";
+    position: absolute;
+    left:50%;
+    height: 4px;
+    width: 85.2%;
+    background: #F5BD41;
+    bottom: -1px;
+    transform: translateX(-50%);
+    opacity: 0;
+    transition: 0.3s;
+}
+.link-text:hover:after{
+    opacity: 1;
+}
+.dark-on{
+    background: none;
+    border: none;
+    padding: 0;
+}
+.head-img-1{
+    height: 30px;
+    width: 30px;
+    margin-right: 24px;
+}
+.head-img-2{
+    height: 40px;
+    width: 40px;
+}
+.head-link{
+    display: flex;
+    margin-right: 48px;
+}
+.head-img{
+    display: flex;
+}
+.head-form{
+    display: flex;
+}
+.info{
+    padding-top: 196px;
+}
+.sentence{
+    width: 542px;
+    height: 118px;
+}
+.sentence-text{
+    font-size: 50px;
+    color: #FFFFFF;
+    word-wrap: normal;
+    font-weight: 500;
+    margin: 0 auto;
+}
+.search{
+    width: 640px;
+    padding-top: 100px;
+    margin-left: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+.search-text{
+    font-weight: 400;
+    font-size: 18px;
+    color: #FFFFFF;
+    margin: 0 ;
+}
+.mein-search{
+    padding-top:24px ;
+}
+.mein-search-control{
+    display: flex;
+    background: #FFFFFF;
+    width: 1223px;
+    border-radius: 8px;
+}
+.search-control{
+    height: 64px;
+    border-radius: 8px ;
+    color: #FFFFFF;
+}
+.ordering{
+    margin: 0;
+    padding: 0;
+    height: 64px;
+    border: 3px;
+    border-radius: 8px ;
+
+}
+.decor-button{
+    width: 192px;
+    background: #3077C6 ;
+    color: #FFFFFF;
+    font-size: 24px;
+}
+.decor-people{
+    width: 314px;
+    text-align: center;
+}
+.decor-data{
+    width: 259px;
+    text-align: center;
+}
+.decor-york{
+    width: 458px;
+    margin-left: 24px;
+}
+.btn-img{
+    padding:120px 0px ;
+    display: flex;
+    justify-content: center;
+}
+.btn-install{
+    width: 135px;
+    height: 40px;
+    display: contents;
+}
+.btn-g-play{
+    margin-right: 16px;
+}
