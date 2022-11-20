@@ -103,7 +103,6 @@ body{
 .mein-search-control{
     display: flex;
     background: #FFFFFF;
-    width: 1223px;
     border-radius: 8px;
 }
 .search-control{
@@ -118,7 +117,7 @@ body{
     border-radius: 8px ;
 }
 .decor-button{
-    width: 192px;
+    min-width: 192px;
     background: #3077C6 ;
     color: #FFFFFF;
     font-size: 24px;
@@ -133,9 +132,6 @@ body{
 .decor-people::placeholder,
 .decor-data::placeholder{
     text-align: center;
-}
-.decor-york{
-    max-width: 458px;
 }
 .mein-search-control > input{
     width: 100%;
