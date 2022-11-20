@@ -115,27 +115,37 @@ body{
     margin: 0;
     padding: 0;
     height: 64px;
-    border: 3px;
     border-radius: 8px ;
-
 }
 .decor-button{
     width: 192px;
     background: #3077C6 ;
     color: #FFFFFF;
     font-size: 24px;
+    border: 0;
 }
 .decor-people{
-    width: 314px;
-    text-align: center;
+    max-width: 314px;
 }
 .decor-data{
-    width: 259px;
+    max-width: 259px;
+}
+.decor-people::placeholder,
+.decor-data::placeholder{
     text-align: center;
 }
 .decor-york{
-    width: 458px;
-    margin-left: 24px;
+    max-width: 458px;
+}
+.mein-search-control > input{
+    width: 100%;
+    padding-left: 24px;
+    border: 3px solid transparent;
+    outline: none;
+    box-sizing: border-box;
+}
+.mein-search-control > input:focus{
+    border: 3px solid #F5BD41;
 }
 .btn-img{
     padding:120px 0px ;
